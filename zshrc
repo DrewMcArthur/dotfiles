@@ -14,3 +14,6 @@ compinit
 # End of lines added by compinstall
 #PS1='[%n@%M:%~]$ '#ubuntu default shell prompt
 PS1='%n: %3~ $ '
+
+alias ll='ls -alF'
+alias la='ls -A'
