@@ -30,3 +30,6 @@ set background=dark
 
 "YouCompleteMe Configuration
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
+
+"turn off auto commenting on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
