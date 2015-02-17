@@ -23,3 +23,7 @@ alias la='ls -A'
 #binds ctrl+home and ctrl+end to right keys
 bindkey ";5H" beginning-of-line
 bindkey ";5F" end-of-line
+
+#colorful terminal
+alias grep='grep --color'
+alias ls='ls --color=auto'
