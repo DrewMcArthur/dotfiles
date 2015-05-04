@@ -34,3 +34,6 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.p
 ".swp directories
 set backupdir=~/.vim/backup/
 set directory=~/.vim/swap/
+
+"turn off auto commenting on newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
