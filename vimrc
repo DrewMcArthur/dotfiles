@@ -30,3 +30,7 @@ set background=dark
 
 "YouCompleteMe Configuration
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
+
+".swp directories
+set backupdir=~/.vim/backup/
+set directory=~/.vim/swap/
